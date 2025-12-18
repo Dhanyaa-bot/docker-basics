@@ -20,5 +20,16 @@ This project is part of my **DevOps learning journey**, focusing on hands-on imp
 
 ---
 
+##how to run <br>
+docker build -t docker-basics-nginx .
+<br>
+##how to run container<br>
+docker run -d -p 8080:80 docker-basics-nginx
+
+<br>
+##how to access the application <br>
+http://localhost:8080
+
+<br>
 
 
